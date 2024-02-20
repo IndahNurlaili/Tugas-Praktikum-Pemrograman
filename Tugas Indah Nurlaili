@@ -1,0 +1,19 @@
+import java.math.BigInteger;
+
+public class BigIntegerDenganReturn {
+    public static void main(String[] args) {
+        // Panggil method untuk mendapatkan hasil operasi dengan BigInteger
+        BigInteger result = performBigIntegerOperation();
+
+        // Menampilkan hasil
+        System.out.println("Hasil penjumlahan: " + result);
+    }
+
+    public static BigInteger performBigIntegerOperation() {
+        BigInteger num1 = new BigInteger("1234");
+        BigInteger num2 = new BigInteger("980");
+
+        // Melakukan operasi penjumlahan
+        return num1.add(num2);
+    }
+}
